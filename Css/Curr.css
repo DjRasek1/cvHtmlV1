@@ -1,0 +1,254 @@
+/* Documento CSS */
+@import url('reset.css');
+@import url('Fuentes.css');
+
+/*--- Estilos Generales ---*/
+
+Body {
+  Background:#000000;
+  width:960px;
+  margin:auto;
+  clear:both;
+  font-family:Arial, Helvetica, Sans-serif;
+  color:#fff;
+}
+
+a {text-decoration:none; color:#fff;}
+a:hover{text-decoration:underline;}
+
+/*--- Header ---*/
+
+header {
+display:inline;
+} 
+
+#Curriculum {
+  font-family:ITC-Demi;
+  Font-size:55px;
+  text-align: center;
+}           
+
+#foto {
+  float:left;
+  margin-left: 25px;
+  padding:10px;
+}
+ 
+ #Nombre {
+  background-color:#765e5e;
+  width:280px;
+  height:90px;
+  margin-left:350px;
+  margin-top:50px;
+  margin-bottom:100px;
+  padding:10px 10px 0px;
+}
+
+#Cesar {
+  font-family:ITC-Demi;
+  font-size:18px;
+}
+
+#Carrera {
+   font-family: ITC-Book;
+   font-size:18px;
+}
+
+#Edad {
+  font-family: ITC-Book;
+  margin-top:70px;
+  margin-right:100px;
+  float:right;
+  text-align:Center;
+}
+
+/*--- Cintillo pestanas ---*/
+#pestanas {
+  background-color:#1b192e; 
+  font-family:ITC-Book;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:20px;
+  padding-bottom:20px;
+  //margin-left: 0px;
+}                
+
+#pestanas ul li {
+  background-color:#1b192e;
+  display:inline;
+  font-family:ITC-Book;
+  font-size:18px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:18px;
+  padding-bottom:18px;
+}
+
+#pestanas ul li a {
+  font-family:ITC-Book;
+  margin: 0 auto;
+  font-size:18px;
+  padding:18px 10px;  
+}
+
+#pestanas ul li a:hover {
+  background-color:#491425;
+  margin: 0 auto;
+  font-family:ITC-Book;
+  font-size:18px;
+  text-decoration:none;
+  padding:18px 10px;  
+}
+
+/*--- Texto ---*/            
+
+p {
+  padding:10px;
+  text-align: justify;
+  font-family: ITC-Book;
+  font-size:18px;
+  color:#a0a0a0;                             
+  height: 230px;   
+}
+
+/*--- Tabla ---*/
+
+table {
+  width:960px;
+  margin-top:10px;
+  //margin-bottom: 50px;
+}
+
+.Titulo {
+  font-family: ITC-Demi;
+  padding: 10px;
+  border: thin solid;
+  border-bottom-style: none;
+  font-size:25px;
+  text-align: center;
+}
+
+.Datos {
+  padding:10px;
+  text-align: justify;
+  font-family: ITC-Book;
+  font-size:18px;
+  color:#a0a0a0;                             
+  border: thin solid;
+  border-top-style: none;
+}
+
+.Job1 {
+  color:white;
+  font-family: ITC-Demi;
+}
+
+.Job2 {
+  color:white;
+}
+
+#Tdatos1 {
+  color:#a0a0a0;
+}
+
+#datos1 {
+  color:#fff;
+  text-align: right;
+  font-family: ITC-Demi;
+  border-right-style: none;
+  border-color: #a0a0a0;
+}
+
+#datos2 {
+  font-size: 18px;
+  width: 480px;
+  padding-left:0px;
+  border-color: #a0a0a0;
+  border-left-style: none;
+}
+
+#TinfAdi {
+  color: #ffff00;
+}
+
+#InfAdi {
+  border-color: #ffff00;
+}
+
+#TexpProf {
+  color:#4bacc6;
+}
+
+#ExpProf {
+  border-color: #4bacc6;
+}
+
+#TfEdu {
+  color: #f79646;
+}
+
+#Fedu1 {
+  font-family: ITC-Demi;
+  color: white;
+  border-color: #f79646;
+  border-right-style: none;
+}
+
+#Fedu2 {
+  border:  none;
+}
+
+#Fedu3 {
+  color: white;
+  border-color: #f79646;
+  border-left-style: none;
+}
+
+#Fedu1 , #Fedu2, #Fedu3 {
+  font-size: 18px;
+  width: 320px;
+  text-align: center;
+  border-bottom: thin solid #f79646;
+}
+
+#TforAdi {
+  color: #c0504d;
+}
+
+#ForAdi {
+  border-color: #c0504d;
+}                                                 
+
+#Hab {
+  border-color: #76923c;
+}
+
+#Thab {
+  color:#76923c;
+}
+
+#Tref {
+  color:#660066;
+}
+
+#Ref {
+  border-color: #660066;
+}
+
+/*--- Pie de Pagina ---*/
+#Enlace {
+  padding:5px;
+  margin-top:100px;
+  font-family: ITC-Book;
+}
+
+#QR {
+  float: right;
+  padding:  10px;
+}
+
+.social {
+  float:right;
+  padding:10px;
+  margin-top: 45px
+}

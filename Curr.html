@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">                              
+  <head>                                                                 
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">                                
+    <link href="CSS/Curr.css" rel="stylesheet">       
+<script src="Jscript/cambiarPestanna.js"></script>
+<script src="Jscript/jquery-1.11.3.min.js"></script>
+                                                 
+    <title>C&eacute;sar Ellioth Escoboza P&eacute;rez                                                  
+    </title> 
+  </head> 
+                                       
+  <body>                                                            
+    <header>                                                                     
+      <div id="Curriculum">CURRICULUM VITAE                                                                      
+      </div>                                                                                                          
+      <div id="foto">                                                                                       
+        <img src="imagenes/curriculum-boceto_10.gif" alt="curriculum-boceto_10.gif, 17kB" height="169" width="149">
+      </div>      
+
+      <div id="Edad"></div>
+        <script type="text/javascript">
+         var yyyy = Actual.getFullYear();
+         var Actual = new Date();
+         var mm = Actual.getMonth() +1;
+         var Birth = 1984;
+                 
+         if(mm < 10)
+         {
+           Birth = Birth + 1;
+         }
+         
+         var MiEdad = yyyy - Birth;
+         
+         var Edad = document.getElementById("Edad");
+         Edad.textContent = "Edad " + MiEdad;        
+        </script>          
+
+      <div id="Nombre">                                                                 
+        <div id="Cesar"><b>C&eacute;sar Ellioth Escoboza P&eacute;rez</b>                                                                                       
+          <br>        
+        </div>                 
+        <div id="Carrera">        
+          <br>Ing. Sistemas Computacionales                                                                                       
+          <br>C&eacute;dula en espera
+
+        </div>      
+      </div>                            
+    </header>
+
+                                        
+    <div id="pestanas">                                                                                                                                                         
+      <ul id="lista">                                                                                                             
+        <li id="pestana1">        
+          <a href='javascript:cambiarPestanna(pestanas,pestana1);'>Informaci&oacute;n Personal</a></li>                                                                                                                                                                                                                  
+          <li id="pestana2">                            
+            <a href='javascript:cambiarPestanna(pestanas,pestana2);'>Experiencia Laboral</a></li>                                                                                                                     
+            <li id="pestana3">                            
+              <a href='javascript:cambiarPestanna(pestanas,pestana3);'>Formaci&oacute;n Educativa</a></li>                                                                                                                      
+              <li id="pestana4">                            
+                <a href='javascript:cambiarPestanna(pestanas,pestana4);'>Formaci&oacute;n Adicional</a></li>                                                                                                
+                <li id="pestana5">                            
+                  <a href='javascript:cambiarPestanna(pestanas,pestana5);'>Referencias</a></li>                                                                                     
+      </ul>                                                                                      
+    </div>
+    
+    <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+        
+    <div id="contenidopestanas">      
+                                                                                                       
+        <div id="cpestana1">
+        <table>
+        <tr><td id="Tdatos1" class="Titulo" colspan="2">DATOS PERSONALES</td></tr>
+        <tr><td id="datos1" class="Datos">                                                                                                                                                                                        
+              Nombre Completo                   <br><br> 
+              C&eacutedula Profesional				  <br><br>                                                           	
+              Fecha de nacimiento	              <br><br>
+              Direcci&oacuten			              <br><br>
+              Tel&eacutefono				            <br><br>
+              E-mail			                      </td>
+              <td id="datos2" class="Datos">
+              C&eacutesar Ellioth Escoboza P&eacuterez <br><br>
+              En espera                                <br><br>
+              2 de octubre de 1984                     <br><br>                    
+              Av. Illanoz #521                         <br><br> 	
+              6861572245                               <br><br>	
+              DjRasek@Gmail.com                        </td>
+                  
+              </tr><tr height="10px"></tr>
+              <tr><td class="Titulo" id="TinfAdi" colspan="2">INFORMACION ADICIONAL</td></tr>
+              <tr><td class="Datos" id="InfAdi" colspan="2">
+              Licencia de conducir con veh&iacute;culo propio.<br>
+              Disponibilidad horaria: Completa.      <br>
+              Disponibilidad de viajar.              <br><br>
+
+              Hice la edici&oacute;n de video para un programa de televisi&oacute;n llamado &quot;Press Start&quot; con un grupo de amigos en 2008, programa que se transmit&iacute;a por canal 66 los s&aacute;bados por la ma&ntilde;ana.<br><br>
+
+              <section class="Job1">Hobbies:</section> Videojuegos, televisi&oacute;n, lectura general, aprender constantemente sobre programaci&oacute;n y dise&ntilde;o.   
+</td></tr>
+              </table>       
+        </div>                  
+        <div id="cpestana2">
+
+         <table>
+         <tr><td class="Titulo" id="TexpProf">EXPERIENCIA LABORAL</td></tr>
+         <tr><td class="Datos" id="ExpProf">
+         <section class="Job1">Audiorama Comunicaciones<br></section>
+         <section class="Job2">
+         Editor de Audio, Operador de grabaciones<br>
+         Agosto 2005 - Actualmente<br>
+         Medios de Comunicacion<br><br></section>
+         
+        He desempeñado esta labor por más de 10 años, durante ese tiempo he hecho ediciones y producciones de audio tanto
+para la empresa en la que laboro como para muchos clientes de la misma. Campañas publicitarias, vestimentas en audio
+tanto para las estaciones de la cadena radiofónica como para la programación que las componen.<br><br><br>
+
+        <section class="Job1">TEMCOMEX SA. de CV.<br></section>
+        <section class="Job2">
+        Agosto 2004 – Agosto 2005<br>
+        Operador de producción<br>
+        Maquiladora<br><br>
+        </section>
+        
+        Desempeñé satisfactoriamente una labor como operador de producción, prestando mano de obra para la elaboración de chimeneas interiores de acero galvanizado y sus componentes, durante este tiempo participé soldando con puntos, entre otras actividades.
+        
+         </td></tr> 
+         </table>
+        </div>                 
+        <div id="cpestana3">
+        <table>
+         <tr><td class="Titulo" id="TfEdu" colspan="3">FORMACIÓN EDUCATIVA</td></tr>
+         <tr><td class="Datos" id="Fedu1">Universidad Tecnológica Latinoamericana en Linea (Utel)</td>
+             <td class="Datos" id="Fedu2">Ingeniería en Sistemas Computacionales</td>
+             <td class="Datos" id="Fedu3">Egresado en Marzo de 2018</td></tr>
+             <tr height="10px"></tr>
+             <tr><td class="Titulo" id="Thab" colspan="3">HABILIDADES</td></tr>
+           <td class="Datos" id="Hab" colspan="3">
+              Trabajo bajo presi&oacuten, responsable y organizado.<br><br>
+              Espa&ntilde;ol: Natal<br>
+              Ingl&eacutes: Intermedio  <br> <br>                             
+              <u>-Conocimientos de inform&aacutetica:</u> Paqueteria de MsOffice, Adobe Photoshop,  Audition &amp; premiere; Sony Vegas &amp; SoundForge; Blender, MsVisual Studio, NetBeans, Dev-C++, etc...<br>  <br>
+              <u>-Conocimientos generales en:</u> Dise&ntilde;o Web con HTML5, CSS y Javascript, Programaci&oacuten C, C++, C#, Java, dise&ntilde;o de bases de datos en MySQL.<br> <br>
+              <u>-Conocimientos de los frameworks:</u> .Net, Jquerty, Bootstrap y Ajax.    
+              </td>
+        </table>                  
+        </div>                 
+        <div id="cpestana4">
+          <table>
+           <tr><td class="Titulo" id="TforAdi">FORMACIÓN ADICIONAL</td></tr>
+           <tr><td class="Datos" id="ForAdi">
+           <section class="Job1">Curso de Adobe Photoshop<br></section>
+           <section class="Job2">Gente Diversa<br>
+           2012 <br><br></section>
+           Curso b&aacute;sico de dise&ntilde;o gr&aacute;fico en Adobe Photoshop. Con la instituci&oacute;n &quot;Gente Diversa&quot; en colaboraci&oacuten con DESOM secci&oacuten Azteca-Mayos, 2012 organizado por Rebeca Maltos.<br><br><br>
+          
+           <section class="Job1">Taller de Computación II<br></section>
+           <section class="Job2">CEBA/CEDEX<br>
+           2012 <br><br></section>
+            
+          Curso intermedio para el uso de la paqueter&iacute;a ofim&aacutetica &quot;Office 2003&quot; impartido por el gobierno del estado de Baja California, programa CEBA/CEDEX durante el a&ntilde;o 2012.<br><br><br>
+          
+          <section class="Job1">Taller de Ventas<br></section>
+           <section class="Job2">Radiorama Mexicali<br>
+           2012 <br><br></section>
+           
+          Particip&eacute en un taller de ventas organizado por Radiorama de Mexicali en el a&ntilde;o 2012, e impartido por el mercad&oacute;logo Guillermo &quot;Memo&quot; Renter&iacute;a.</td></tr>
+          </table>
+                 
+          <table>
+          
+          </table>
+          
+        </div>
+        <div id="cpestana5">
+        <table>
+         <tr><td class="Titulo" id="Tref">REFERENCIAS</td></tr>
+         <tr><td class="Datos" id="Ref">
+         <section class="Job1">Audiorama Comunicaciones</section> 
+         <section class="Job2">Director	Alberto Ruiz de Anda</section>
+          Tel&eacutefono	557 02 10 Ext. 112                 <br>
+          E-mail		ARuizDeAnda@AudioramaBC.com<br><br>
+          
+         <section class="Job1">Audiorama Comunicaciones</section> 
+         <section class="Job2">Gerente Sergio Ruiz de Anda</section>
+          Tel&eacutefono	557 02 10 Ext. 124                 <br>
+          E-mail		SergioRuizDeAnda@Hotmail.com<br><br>   
+        </td></tr>
+        </table>
+        </div>
+        </div>                                                                                                                             
+        <div id="QR">                                                                             
+          <img src="imagenes/QRHP.png" alt="curriculum-boceto_20.gif, 13kB" title="Escanea con tu telefono" height="122" width="122">                                                       
+        </div>      
+        <div class="social" id="FB">                                                                             
+          <a href="http://www.facebook.com/DjRasek" target="_blank">
+          <img src="imagenes/Social/fb.png" alt="fb logo" title="Facebook" height="75" width="75"></a>                                                       
+        </div> 
+        <div class="social" id="li">
+          <a href="https://www.linkedin.com/in/cesar-escoboza" target="_blank">
+          <img src="imagenes/Social/li.png" alt="LinkedIn logo" title="LinkedIn" height="75" width="75"></a>
+        </div>
+        
+        <div align="left" id="Enlace">                                                                           
+          <a href="CV Cesar Escoboza Version Clara.pdf" title="Archivo Descargable" id="Enlace" target="_blank">Descarga Versi&oacute;n Imprimible</a>                                                       
+        </div> 
+        <link rel="shortcut icon" href="imagenes/Social/favicon.ico" type="image/x-icon">
+                 
+    </div>                                                                                                               
+  </body>
+</html>
